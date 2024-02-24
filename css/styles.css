@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&family=Protest+Strike&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
 .container{
-    background-color: cadetblue;
+    background: linear-gradient(to right, white, brown);;
     width: 100vw;
     height: 100vh;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -19,6 +27,8 @@ h1{
 button{
     font-size: xx-large;
     padding: 0.75em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
 }
 
 #yesBtn{
@@ -28,3 +38,12 @@ button{
 #noBtn{
     position: absolute;
 }
+
+.img1{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
