@@ -1,7 +1,7 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert("Hola jen o siiiii")
+    alert("Vivan las papas locas")
 });
 
 const noBtn = document.querySelector('#noBtn');
