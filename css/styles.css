@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+canvas{
+    position: absolute;
+}
+
 h1{
     font-size: xx-large;
     padding: 15%;
